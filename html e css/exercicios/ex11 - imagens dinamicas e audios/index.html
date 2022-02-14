@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>abrir em dispositivos diferentes ou diminua o zoom do navegador</p>
+
+    <picture>
+        <source media="(min-width: 1050px )" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="">
+       
+    </picture>
+
+    <h1>vamos adicionar audios</h1>
+
+    <!--<audio src="midia/Burbank Late Nights - Squadda B.mp3" controls></audio>-->
+
+    <audio preload="metadata" controls>
+        <source src="midia/Space Age Hustle - Squadda B.mp3" type="audio/mpeg">
+        <source src="midia/Space Age Hustle - Squadda B.mp3" type="audio/ogg">
+        <source src="midia/Space Age Hustle - Squadda B.mp3" type="audio/wav">
+    </audio>
+
+</body>
+</html>
